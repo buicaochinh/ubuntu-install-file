@@ -1,5 +1,6 @@
-# Git
+# Git, curl
 sudo apt-get install git
+sudo apt-get install curl
 
 # brave
 sudo apt install apt-transport-https curl gnupg
@@ -19,3 +20,11 @@ sudo apt-get install ibus-bamboo
 ibus restart
 ## Đặt ibus-bamboo làm bộ gõ mặc định
 gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us'), ('ibus', 'Bamboo')]"
+
+# nodejs
+sudo apt-get update
+## nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
+source ~/.profile
+## nodejs
+nvm install node
